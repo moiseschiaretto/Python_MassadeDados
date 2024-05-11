@@ -1,0 +1,2 @@
+# requeriments.txt
+selenium>=4.20.0
