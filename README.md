@@ -80,7 +80,7 @@ https://geradorbrasileiro.com/pessoa
 
 https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp
 
-![Dados_Gerados_Arquivo_Log](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/033176c9-82f0-4c60-8a78-2d20ffc52299)
+![Dados_Gerados_Arquivo_Log](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/46ff1bb2-2fea-422d-834e-6dc9566e1304)
 
 
 ## Arquivo 'Extrair_CPF_DataNasc_Web.py'
@@ -91,7 +91,8 @@ https://geradorbrasileiro.com/pessoa
 
 - Ao gerar no site da Web o "CPF" e a "Data de Nascimento" esse dados são armazenados em um **"arquivo de log"** para depois em uma **"segunda etapa"** serem inseridos em um sistema a quantidade de massa de dados desejada.
 
-![Massa_de_Dados](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/31e9c224-e82a-4047-9209-539861e7fb31)
+![Massa_de_Dados](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/ec1fda27-1af8-4ce9-b8f1-80f18bf71f7f)
+
 
 ## Importante
 
@@ -120,7 +121,8 @@ Este arquivo é uma **planilha do LibreOffice CALC utilizando uma Macro BASIC, p
   - Teste BA, Teste BB, Teste BC, ..., Teste BZ,
   - E assim sucessivamente...
 
-![Planilha_Massa_Dados_Gerada](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/951e32ec-8030-4f8f-b95f-81033857b566)
+![Planilha_Massa_Dados_Gerada](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/1c7e60a8-afa8-4c73-8172-be15565ab58b)
+
 
 Código desenvolvido **na Macro BASIC utilizado no botão da planilha do LibreOffice CALC, para a geração dos **sobrenomes** dos nomes sintéticos.**
 
@@ -153,11 +155,16 @@ Sub Gerar_Letras()
 End Sub
 
 ```
+
+![LibreOffice_Basic](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/f19db8db-be3b-4725-bdc8-fa9598d64d3d)
+
+
 ## Planilha do LibreOffice CALC com a Massa de Dados pronta para o Cadastro em um Sistema
 
 - Este planilha, podendo ser também uma tabela no banco de dados, contém os dados, ou seja, a massa de dados, como "Nome Completo", "CPF" e "Data de Nascimento", pronta para o Cadastro em um Sistema.
 
-![Planilha_Massa_Dados_Gerada](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/c080b0f0-4818-4cc8-bcdc-90ffca4a77c8)
+![Planilha_Massa_Dados_Gerada](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/107e5754-eeac-44d1-9ee5-90ce654aac25)
+
 
 
 ## Pasta validacoes
