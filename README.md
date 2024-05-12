@@ -14,18 +14,31 @@
 
 ## Estrutura do Projeto "projeto_web"
 
+![Dados_Extrair_Web_Gerar_Faker](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/a7a8e035-6e41-4984-b92a-e84720c00a69)
+
+
 ```
+
 GerarMassaDados
     |
-    |-----.gitgnore
-    |-----cpf_datanasc.csv
-    |-----Extrair_CPF_DataNasc_Web.py
-    |-----PLAN_CALC_MASSA_DADOS.ods
-    |-----README.md
-    |-----requirements.txt
+    |-----Extrair_Dados_Web
+    | 	    |---cpf_datanasc.csv
+    | 	    |---Extrair_CPF_DataNasc_Web.py
+    | 	    |---PLAN_CALC_MASSA_DADOS.ods
+    |
+    |-----Gerar_Dados_Faker
+    | 	    |---Gerar_Aleatorios.py
+    | 	    |---dados_faker.csv
+    |
+    |-----resources
+    | 	    |---geckodriver.exe
     |
     |-----validacoes
     | 	    |---ValidacoesParaCadastrar.py
+    |
+    |-----.gitgnore
+    |-----README.md
+    |-----requirements.txt
 
 ```
 
