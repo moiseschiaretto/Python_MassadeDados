@@ -5,9 +5,9 @@
 
 **- Exemplos em Python de como gerar Massa de Dados.**
 
-  **- Exemplo 1:** Python gera os dados aleatórios / faker (nome ; cpf ; data de nascimento).
+    **- Exemplo 1:** Python gera os dados aleatórios / faker (nome ; cpf ; data de nascimento).
 
-  **- Exemplo 2:** Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
+    **- Exemplo 2:** Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
 
 - **Python com Selenium WeDriver**
   
