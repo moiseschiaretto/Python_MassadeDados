@@ -1,2 +1,3 @@
 # requeriments.txt
 selenium>=4.20.0
+faker>=25.1.0

@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 import time
 from datetime import datetime
 
-# URL que será acessada para capturar CPF e Data de Nascimento
-# Estes CPFs não são válidos, porém não são quentes, ou seja, não constar no site da RF - Receita Federal
+# URL que é acessada para capturar CPF e Data de Nascimento
+# Estes CPFs são válidos, porém não são quentes, ou seja, não constar no site da RF - Receita Federal
 # Sendo assim podem serem utilizados em um Ambiente de Stage ou Produção
 # 'https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp'
 url_cpf = 'https://geradorbrasileiro.com/pessoa'
