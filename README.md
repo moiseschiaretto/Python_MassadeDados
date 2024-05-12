@@ -58,6 +58,7 @@ Constam todas as 'bibliotecas' do projeto para serem instaladas, neste caso some
 ```
 # requeriments.txt
 selenium>=4.20.0
+faker>=25.1.0
 ```
 
 ## Arquivo '.gitignore'
@@ -79,9 +80,11 @@ Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o 
   - 
 
 
+
 ## Exemplo 2: Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
 ## Arquivo 'cpf_datanasc.csv'
-Constam os dados que são **"CPF" e "Data de Nascimento"** extraídos do site da Web, para a geração da Massa de Dados, sendo um arquivo de log que armazena os dados capturados/extraídos, podendo também esses dados serem armaenados em uma tabela de um banco de dados.
+
+Constam os dados que são **"CPF" e "Data de Nascimento"** extraídos do site da Web, para a geração da Massa de Dados, sendo um arquivo de log que armazena os dados capturados / extraídos, podendo também esses dados serem armaenados em uma tabela de um banco de dados.
 
 https://geradorbrasileiro.com/pessoa
 
@@ -128,7 +131,7 @@ https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPu
 
 Este arquivo é uma **planilha do LibreOffice CALC utilizando uma Macro BASIC, podendo ser também uma planilha do Microsoft Excel utilizando uma Macro do VBA,** onde são gerados os **nomes sintéticos para o cadastro, respeitando assim a LGPD.**
 
-**Planilha do LibreOffice CALC com o botão "Gerar Letras na Coluna "D",** são geradas letras para os **sobrenomes** dos nomes sitéticos a serem cadastrados, por exemplo:
+**Planilha do LibreOffice CALC com o botão "Gerar Letras na Coluna "D",** são geradas letras para os **sobrenomes** dos nomes personalizados e sitéticos a serem cadastrados, por exemplo:
   - Teste A, Teste B, Teste C, ..., Teste Z,
   - Teste AA, Teste AB, Teste AC, ..., Teste AZ,
   - Teste BA, Teste BB, Teste BC, ..., Teste BZ,
@@ -137,7 +140,7 @@ Este arquivo é uma **planilha do LibreOffice CALC utilizando uma Macro BASIC, p
 ![Planilha_Massa_Dados_Gerada](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/1c7e60a8-afa8-4c73-8172-be15565ab58b)
 
 
-Código desenvolvido **na Macro BASIC utilizado no botão da planilha do LibreOffice CALC, para a geração dos **sobrenomes** dos nomes sintéticos.**
+Código desenvolvido **na Macro BASIC utilizado no botão da planilha do LibreOffice CALC, para a geração dos **sobrenomes** dos nomes personalizados e sintéticos.**
 
 ```
 Sub Gerar_Letras()
