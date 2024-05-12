@@ -7,10 +7,11 @@
   
 - **LibreOffice CALC com Macro em BASIC, pode utilizar também o Microsoft Excel com Macro em VBA.**
 
-| ![04_Python](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/beabdf64-9d5f-493b-a24c-1f976962f1e9) | ![08_Selenium_Webdriver_02](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/69d76fa1-2cdb-4f3d-a379-d4eb27fd63ae)|
-| ![19_LibreOffice_CALC](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/3663d8fb-efe1-48f1-8b71-afd62177b30e)     | ![20_MS_EXCEL_02](https://github.com/moiseschiaretto/Python_Massa_de_Dados/assets/84775466/5e35925a-d8ba-41fd-822d-2bf7bce6f386)
- |
+| ![04_Python](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/85379dcd-9c54-435b-806c-3a32f9c3379a) | ![08_Selenium_Webdriver_02](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/40d3a46a-f2c2-43fe-9b16-c44531b01952)|
 
+| ![19_LibreOffice_CALC](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/444cf3aa-5ff3-4712-a0bd-f893bbe43478)
+ | ![20_MS_EXCEL_02](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/44fdd4b7-2484-41ba-bd00-0e3feba6227c)
+ |
 
 ## Estrutura do Projeto "projeto_web"
 
