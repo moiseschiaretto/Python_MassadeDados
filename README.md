@@ -58,7 +58,7 @@ Constam todas as 'bibliotecas' do projeto para serem instaladas.
 
   - Biblioteca do **Selenium WebDriver** para acessar o browser.
 
-  - Biblioteca do **Faker** para gerar os dados aleatórios / faker.
+  - Biblioteca do **Faker** para gerar os dados aleatórios / faker (nome ; cpf ; data de nascimento).
 
 ```
 # requeriments.txt
