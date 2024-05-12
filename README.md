@@ -83,8 +83,78 @@ Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o 
 
 ## Exemplo 1: Python gera os dados aleatórios / faker (nome ; cpf ; data de nascimento).
   - Gerar Dados Faker com o Python......
-  - 
 
+  ```
+
+      import faker
+      import random
+      
+      # Inicializa o Faker para geração de dados aleatórios
+      fake = faker.Faker('pt_BR')
+      
+      # Função para gerar um CPF aleatório
+      def gerar_cpf():
+          base = [random.randint(0, 9) for _ in range(9)]
+      
+          # Gera os dois dígitos verificadores
+          val1 = sum([base[i] * (10 - i) for i in range(9)]) % 11
+          base.append(11 - val1 if val1 >= 2 else 0)
+          val2 = sum([base[i] * (11 - i) for i in range(10)]) % 11
+          base.append(11 - val2 if val2 >= 2 else 0)
+      
+          return ''.join(map(str, base))
+      
+      # Lista para armazenar os dados gerados
+      nomes = []
+      cpfs = []
+      datas_nascimento = []
+      
+      with open("dados_faker.csv", 'a+', newline="") as arquivo:
+          # Gerar 10 nomes, CPFs e datas de nascimento
+          for _ in range(10):
+              # Gerar nome aleatório
+              nome = fake.name()
+              nomes.append(nome)
+      
+              # Gerar CPF aleatório
+              cpf = gerar_cpf()
+              cpfs.append(cpf)
+      
+              # Gerar data de nascimento entre 18 e 65 anos atrás
+              data_nascimento = fake.date_of_birth(minimum_age=18, maximum_age=65)
+              datas_nascimento.append(data_nascimento.strftime('%d/%m/%Y'))
+      
+              cpf = cpf.replace('.', '').replace('-', '')
+              arquivo.write(nome + ';' + cpf + ';' + data_nascimento.strftime('%d/%m/%Y') + ';\n')
+              arquivo.flush()
+      
+      # Exibir os dados gerados
+      print("Nomes:")
+      for nome in nomes:
+          print(nome)
+      
+      print("\nCPFs:")
+      for cpf in cpfs:
+          print(cpf)
+      
+      print("\nDatas de Nascimento:")
+      for data in datas_nascimento:
+          print(data)
+    
+    
+  ```
+
+
+  - CPFs gerados pelo Python utilizando a biblioteca **"Faker".**
+
+  ![CPF_FAKER_GERADOS_PYTHON](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/fb1baa9f-1cd7-4097-aaaf-766cc3041441)
+
+
+  - Validando os CPFs gerados pelo Pyhton com a biblioteca "Faker" se os mesmos são válidos.
+
+  - https://www.4devs.com.br/validador_cpf
+
+  ![VALIDACAO_CPF_FAKER](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/b4fa05ad-c0f3-41dd-91e2-ce6174b263bf)
 
 
 ## Exemplo 2: Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
