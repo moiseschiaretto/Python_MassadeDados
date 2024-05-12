@@ -2,7 +2,13 @@
 - Autor Moisés Ademir Chiaretto
   
 - Descrição das explicações de cada item da 'estrutura do projeto "GerarMassaDados" desenvolvido'.
-  
+
+**- Exemplos em Python de como gerar Massa de Dados.**
+
+  **- Exemplo 1:** Python gera os dados aleatórios / faker (nome ; cpf ; data de nascimento).
+
+  **- Exemplo 2:** Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
+
 - **Python com Selenium WeDriver**
   
 - **LibreOffice CALC com Macro em BASIC, pode utilizar também o Microsoft Excel com Macro em VBA.**
