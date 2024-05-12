@@ -54,12 +54,18 @@ Explicações da Estrutura do Projeto e as suas respectivas configurações.
 
 
 ## Arquivo 'requeriments.txt'
-Constam todas as 'bibliotecas' do projeto para serem instaladas, neste caso somente o Selenium WebDriver.
+Constam todas as 'bibliotecas' do projeto para serem instaladas.
+
+  - Biblioteca do **Selenium WebDriver** para acessar o browser.
+
+  - Biblioteca do **Faker** para gerar os dados aleatórios / faker.
+
 ```
 # requeriments.txt
 selenium>=4.20.0
 faker>=25.1.0
 ```
+
 
 ## Arquivo '.gitignore'
 Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o código para o git (controle de versão).
