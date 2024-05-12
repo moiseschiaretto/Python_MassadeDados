@@ -82,6 +82,7 @@ Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o 
 
 
 ## Exemplo 1: Python gera os dados aleatórios / faker (nome ; cpf ; data de nascimento).
+
   - Gerar Dados Faker com o Python......
 
   ```
@@ -145,16 +146,21 @@ Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o 
   ```
 
 
+
   - CPFs gerados pelo Python utilizando a biblioteca **"Faker".**
 
   ![CPF_FAKER_GERADOS_PYTHON](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/fb1baa9f-1cd7-4097-aaaf-766cc3041441)
+
 
 
   - Validando os CPFs gerados pelo Pyhton com a biblioteca "Faker" se os mesmos são válidos.
 
   - https://www.4devs.com.br/validador_cpf
 
-  ![VALIDACAO_CPF_FAKER](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/b4fa05ad-c0f3-41dd-91e2-ce6174b263bf)
+  ![VALIDACAO_CPF_FAKER](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/b8917ad3-9487-43de-ba94-d46c3b5f9e9b)
+
+
+  
 
 
 ## Exemplo 2: Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
