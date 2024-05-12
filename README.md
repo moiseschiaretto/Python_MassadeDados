@@ -73,6 +73,13 @@ Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o 
 
 - Este arquivo está dentro da **pasta "resources,** não exibida aqui no repositório por estar no arquivo ".gitignore", porém ese arquivo "geckodriver.exe" é do browser Mozilla Firefox, utilizado pelo Selenium WebDriver para acessar o browser.
 
+
+## Exemplo 1: Python gera os dados aleatórios / faker (nome ; cpf ; data de nascimento).
+  - Gerar Dados Faker com o Python......
+  - 
+
+
+## Exemplo 2: Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
 ## Arquivo 'cpf_datanasc.csv'
 Constam os dados que são **"CPF" e "Data de Nascimento"** extraídos do site da Web, para a geração da Massa de Dados, sendo um arquivo de log que armazena os dados capturados/extraídos, podendo também esses dados serem armaenados em uma tabela de um banco de dados.
 
