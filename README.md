@@ -211,7 +211,7 @@ https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPu
 
 ## Arquivo 'PLAN_CALC_MASSA_DADOS.ods'
 
-Este arquivo é uma **planilha do LibreOffice CALC utilizando uma Macro BASIC, podendo ser também uma planilha do Microsoft Excel utilizando uma Macro do VBA,** onde são gerados os **nomes sintéticos para o cadastro, respeitando assim a LGPD.**
+Este arquivo é uma **planilha do LibreOffice CALC utilizando uma Macro BASIC, podendo ser também uma planilha do Microsoft Excel utilizando uma Macro do VBA,** onde são gerados os **nomes personalizados e sintéticos para o cadastro, respeitando assim a LGPD.**
 
 **Planilha do LibreOffice CALC com o botão "Gerar Letras na Coluna "D",** são geradas letras para os **sobrenomes** dos nomes personalizados e sitéticos a serem cadastrados, por exemplo:
   - Teste A, Teste B, Teste C, ..., Teste Z,
