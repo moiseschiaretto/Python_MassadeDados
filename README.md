@@ -189,7 +189,7 @@ End Sub
 
 
 
-## Pasta validacoes
+## Pasta "validacoes"
 
 Contém o arquivo **"ValidacoesParaCadastrar.py"** com 3 (três) validações, são elas:
 
