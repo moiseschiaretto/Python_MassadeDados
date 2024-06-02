@@ -9,7 +9,7 @@
 
     - Exemplo 2: Extrair os dados da Web e gerar os nomes personalizados e sintéticos.
 
-- **Python com Selenium WeDriver**
+- **Python com Selenium WebDriver**
   
 - **LibreOffice CALC com Macro em BASIC, pode utilizar também o Microsoft Excel com Macro em VBA.**
 
