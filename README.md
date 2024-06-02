@@ -15,9 +15,10 @@
 
 <br>
 
-|Python           |Selenium WebDriver      |LibreOffice CALC - BASIC      |MS-EXCEL - VBA      |
-|-----------------|------------------------|------------------------------|--------------------|
-| ![04_Python](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/85379dcd-9c54-435b-806c-3a32f9c3379a) | ![08_Selenium_Webdriver_02](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/40d3a46a-f2c2-43fe-9b16-c44531b01952) | ![19_LibreOffice_CALC](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/444cf3aa-5ff3-4712-a0bd-f893bbe43478) | ![20_MS_EXCEL_02](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/44fdd4b7-2484-41ba-bd00-0e3feba6227c) |
+|Python           |Selenium WebDriver      |LibreOffice CALC - BASIC      |MS-EXCEL - VBA      |IDE PyCharm        |
+|-----------------|------------------------|------------------------------|--------------------|-------------------|
+| ![04_Python](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/85379dcd-9c54-435b-806c-3a32f9c3379a) | ![08_Selenium_Webdriver_02](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/40d3a46a-f2c2-43fe-9b16-c44531b01952) | ![19_LibreOffice_CALC](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/444cf3aa-5ff3-4712-a0bd-f893bbe43478) | ![20_MS_EXCEL_02](https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/44fdd4b7-2484-41ba-bd00-0e3feba6227c) | <img width="194" alt="PyCharm" src="https://github.com/moiseschiaretto/Python_MassadeDados/assets/84775466/3b559cdd-52a3-4d99-8c3a-bad81aaa7731"> |
+
 
 <br>
 
